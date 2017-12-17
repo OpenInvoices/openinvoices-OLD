@@ -41,6 +41,11 @@ return [
             Controller\IndexController::class => InvokableFactory::class,
         ],
     ],
+    'service_manager' => array(
+        'factories' => array(
+            'navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory', // <-- add this
+        ),
+    ),
     'view_manager' => [
         'display_not_found_reason' => true,
         'display_exceptions'       => true,

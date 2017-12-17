@@ -13,6 +13,7 @@
 return [
     'Zend\Router',
     'Zend\Validator',
+    'Zend\Navigation',
     'Application',
     'OpenInvoices\Tax',
     'OpenInvoices\Customer',
