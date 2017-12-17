@@ -4,11 +4,15 @@
 	"require": {
         "php": "^5.6 || ^7.0",
         "zendframework/zend-mvc": "^3.0.1",
-        "zendframework/zend-json": "^3.0"
+        "zendframework/zend-json": "^3.0",
+        "openinvoices/openinvoices-webservice-rest": "dev-master"
     },
 	 "autoload": {
         "psr-4": {
-        	"Application\\": "module/Application/src/"
+        	"Application\\": "module/Application/src/",
+        	"OpenInvoices\\Tax\\": "module/Tax/src/",
+        	"OpenInvoices\\Customer\\": "module/Customer/src/",
+        	"OpenInvoices\\Invoice\\": "module/Invoice/src/"
         }
     }
 }

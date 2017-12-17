@@ -14,4 +14,7 @@ return [
     'Zend\Router',
     'Zend\Validator',
     'Application',
+    'OpenInvoices\Tax',
+    'OpenInvoices\Customer',
+    'OpenInvoices\Invoice',
 ];
