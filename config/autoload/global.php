@@ -25,4 +25,7 @@ return [
             'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
         ],
     ],
+    'translator' => [
+        'locale' => 'en_US',
+    ],
 ];

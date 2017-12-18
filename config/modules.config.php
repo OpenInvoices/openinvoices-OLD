@@ -15,6 +15,8 @@ return [
     'Zend\Validator',
     'Zend\Navigation',
     'Zend\Db',
+    'Zend\I18n',
+    'Zend\Mvc\I18n',
     'Application',
     'OpenInvoices\Tax',
     'OpenInvoices\Customer',
