@@ -15,8 +15,8 @@
         	"OpenInvoices\\Tax\\": "module/Tax/src/",
         	"OpenInvoices\\Customer\\": "module/Customer/src/",
         	"OpenInvoices\\Invoice\\": "module/Invoice/src/",
-        	"OpenInvoices\\Payment\\": "module/Invoice/src/",
-        	"OpenInvoices\\Product\\": "module/Invoice/src/"
+        	"OpenInvoices\\Payment\\": "module/Payment/src/",
+        	"OpenInvoices\\Product\\": "module/Product/src/"
         }
     }
 }
