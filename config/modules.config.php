@@ -19,4 +19,6 @@ return [
     'OpenInvoices\Tax',
     'OpenInvoices\Customer',
     'OpenInvoices\Invoice',
+    'OpenInvoices\Payment',
+    'OpenInvoices\Product',
 ];
