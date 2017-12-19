@@ -24,4 +24,5 @@ return [
     'OpenInvoices\Payment',
     'OpenInvoices\Product',
     'OpenInvoices\Settings',
+    'OpenInvoices\Authentication',
 ];
