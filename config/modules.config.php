@@ -17,6 +17,7 @@ return [
     'Zend\Db',
     'Zend\I18n',
     'Zend\Mvc\I18n',
+    'Zend\Session',
     'Application',
     'OpenInvoices\Tax',
     'OpenInvoices\Customer',
